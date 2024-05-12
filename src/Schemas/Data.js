@@ -1,56 +1,56 @@
 export const Data = {
   profile: {
-    name: "Matias Lagos",
-    ocupation: "FullStack Software Developer",
-    location: "Santiago, Chile",
-    email: "lagos.matias25@gmail.com",
-    telephone: "+56 971999705",
+    name: "Premshankar Shah",
+    ocupation: "React Native FullStack Software Developer",
+    location: "Ahmedabad, Gujarat",
+    email: "shahprem2412@gmail.com",
+    telephone: "+91 9824594969",
     image: "images/me.webp",
   },
   aboutMe: {
-    label: "Perfil",
+    label: "PROFILE",
     description:
-      "Analista Programador, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo.",
+      "A React Native professional with over 3 years of experience, adept in mobile application development.  Programmer Analyst, skilled in applying agile methodologies to identify needs and design systems based on development models. Recognized for robust problem-solving abilities and rapid adaptation to new technologies. My journey encompasses frontend development, software architecture, and enhancing UI/UX, demonstrating adaptability in the ever-evolving tech landscape.",
   },
   skills: {
-    technicalLabel: "Tecnologías",
+    technicalLabel: "TECHNOLOGIES",
     softLabel: "Skills",
     technicalSkills: [
-      "Angular",
+      "React-native",
       "React",
-      "Java",
+      "EXPO",
+      "JavaScript",
+      "TypeScript",
       "Nodejs",
-      "Spring Boot",
+      "MongoDB",
       "Nestjs",
-      "APIM",
-      "SQL",
-      "Git",
+      "GRAPHQL",
+      "GIT",
     ],
     softSkills: [
-      "Capacidad de análisis",
-      "Resolución de Problemas",
-      "Pensamiento Crítico",
-      "Trabajo en equipo",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
+      "Analysis capacity",
+      "Problem resolution",
+      "Critical thinking",
+      "Teamwork",
+      "Communication",
+      "Proactivity",
+      "Creativity",
+      "Mentoring",
     ],
   },
   socialMedia: {
     label: "SOCIAL",
     social: [
       {
-        label: "Visitar el perfil de Matias Lagos en LinkedIn",
+        label: "Premshankar Shah",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/mlagosg",
+        url: "https://www.linkedin.com/in/premshankar-shah-187914183",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Visitar el perfil de Matias Lagos en GitHub",
+        label: "Prem2412",
         name: "github",
-        url: "https://github.com/Maaato",
+        url: "https://github.com/prem2412",
         className: "bxl-github",
       },
     ],
@@ -58,75 +58,180 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
+        title: "Software Engineer - FullStack Developer",
+        period: "January 2024 - Present",
+        company: "Searce Inc",
         description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+          "Frontend and Mobile development with technologies as React and React Native.",
+          "Building RESTful web services using Node.js and Nest.js, utilizing both JavaScript and TypeScript, alongside MongoDB as the database engine, with API Connect serving as the API Gateway."
         ],
       },
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
+        title: "Software Engineer",
+        period: "April 2022 - Present",
+        company: "MindInventory",
         description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Developed mobile applications tailored to client requirements utilizing native technologies.",
+          "Identify and encourage areas for growth and improvement within the team.",
+          "Design, develop, and test applications in accordance with established standards"
+        ],
+      },
+      {
+        title: "REACT-NATIVE DEVELOPER",
+        period: "July. 2021 - April. 2022",
+        company: "Shine InfoSoft - Technology Meets Solution",
+        description: [
+          "Responsible for requirement understanding, analysis and functionalities development using tech stacks React-Native, JavaScript, Firebase etc. as well as bug fixing.",
+          "Frontend and Mobile development with technologies such as Angular, React, React Native.",
         ],
       },
     ],
     academic: [
       {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
+        career: "Government Engineering College, Modasa",
+        date: "2021",
+        institution: "Bachelor of Engineering - Information Technology",
+        // percent: "CPI: 7.55",
       },
     ],
-    proyects: [
+    projects: [
       {
-        name: "Onboarding Digital",
-        company: "Banco de Chile",
-        period: "Nov. 2019 - Ene. 2020",
+        name: "Food and Drink",
+        company: "Searce Inc",
+        role: "FullStack (MERN) Developer",
+        framework: "React-native, React, Adyen, EPOS intergration, Stripe, Realm, MongoDB, Nestjs",
+        period: "Jan 2024 - Present",
         description: [
-          "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
+          "The end-to-end event management software designed for the entertainment industry. One system to manage all traders and all revenue streams across all your sites. From lightening-fast payment processing to automated revenue share management, our solution will streamline your operations and help you take your business to the next level.",
         ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.app.secretworld",
+        //   },
+        //   { iOS: "https://apps.apple.com/us/app/secret-world/id6447253280" },
+        // ],
       },
       {
-        name: "Captación Digital",
-        company: "Banco Ripley",
-        period: "Ene. 2020 - Feb. 2020",
+        name: "Tour and Travel App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "React-native, Stripe, In-App-Purchase (IAP), Mapbox, MMKV, Redux",
+        period: "2022 - 2023",
         description: [
-          "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
-          "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
+          "Secret world is a magical place for travelers and dreamers. Worlds largest Travel guide, Never stop Discovering Explore Stories.",
         ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.app.secretworld",
+        //   },
+        //   { iOS: "https://apps.apple.com/us/app/secret-world/id6447253280" },
+        // ],
       },
       {
-        name: "Agendamiento Remoto",
-        company: "Gobierno de Chile",
-        period: "Mar. 2020 - May. 2020",
+        name: "Arcade App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "Expo, Socket, Zustand, MMKV, IAP, React-native Web, Video Player",
         description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular 6 e Ionic 4 para el agendamiento de horas en centros a lo largo de todo Chile.",
+          "Arcade Live is a game mobile and web application(IOS/Android/WebApp) played online on real Arcade Game machines controlled remotely through video streaming via mobile and web apps.",
+          "Users can buy credits, and choose an Arcade Game machine to start playing. Each machine required different amount of credits to play the game. User can choose from between two option to play games for as a reward: Play for Tickets & Play for Games.",
         ],
+        // link: [
+        //   // {
+        //   //   android:
+        //   //     "https://play.google.com/store/apps/details?id=com.arcadelive.app&hl=en_US&pli=1",
+        //   // },
+        //   // { iOS: "https://apps.apple.com/us/app/arcade-live/id6471450155" },
+        //   //  {web:  "https://arcadelive.com/"}
+        // ],
       },
       {
-        name: "Altiuz Report Dynamic",
-        company: "Altiuz",
-        period: "Jun. 2020 - Jul. 2020",
+        name: "Tools App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "Return is an app-based platform facilitating trades of pant-bags. The danish pant-system has been around for many years and serves as a method to ensure recyclable bottles and cans gets recycled in a proper way.",
         description: [
-          "Desarrollo de servicio Java para la generación unitaria de documentos, sin la necesidad de tener almacenada la información del mismo en una fuente de datos.",
+          "Expo, React-navigation, React native Map, Expo push notifications, Context Api, Styled components",
         ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.returndk.returnapp",
+        //   },
+        //   { iOS: "https://apps.apple.com/dk/app/return-return-earn/id1620342962" },
+        // ],
       },
       {
-        name: "Desarrollos Tigo",
-        company: "Computec S.A.S",
-        period: "Ago. 2020 - Dic 2020",
+        name: "Trading App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "React-native, Redux-thunk, Rest-API, Plaid-Api.",
         description: [
-          "Desarrollo Java/Spring Boot de Web Service API REST para consulta y descarga de documentos almacenados en repositorios IBM CMOD.",
-          "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
-          "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
+          "This app is a fintech startup that lets your child invest and trade in cryptocurrencies. The ultimate goal of the app is to help the child to understand and learn investment and trading by playing quizzes, watching video libraries, and trade by their parent's approval from each and every investment request.",
         ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=io.trystack.Stack.android&gl=US",
+        //   },
+        //   { iOS: "https://apps.apple.com/US/app/id1621242994?mt=8" },
+        // ],
+      },
+      {
+        name: "Sports and Social App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework:
+          " React-native, React-navigation, React-native Maps, Graph QL, Axios, Firebase push notifications.",
+        description: [
+          "Overall goal of this app is to grow and strengthen the armwrestling community. Get connected easily - find people near you, at home and when you travel!. App privacy settings can be tailored to your need and level of comfort. Choose between precise - ghost - home or private settings. Message people and make connections.",
+        ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.armbet.app&gl=US",
+        //   },
+        //   { iOS: "https://apps.apple.com/de/app/armbet/id1525205708?l=en" },
+        // ],
+      },
+      {
+        name: "Educational App",
+        company: "Shine InfoSoft",
+        role: "Design and development",
+        framework:
+          " React-Native JS, React JS, Redux, Electron, SQLite, Azure Services, Quill JS.",
+        description: [
+          "Its an app for Exam from home, Exam app for students, Having all Questions types Descriptive, MCQs, Match the following questions. Camera to face detect, Mic to record audio on going exam. Screen Capture on going exam, schedule Exam dashboard, sections wise Question paper.",
+          "Used Electron to integrated it for all platforms its available for all Windows, MacOS, Linux, Android and IOS Worked With PowerWeave senior Developer to developed this App. ",
+        ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.efhrnapp",
+        //   },
+        //   { iOS: "https://apps.apple.com/in/app/lm-exam-app/id1588695467" },
+        // ],
+      },
+      {
+        name: "Marketing Automation App",
+        company: "Shine InfoSoft",
+        role: "Design, Functionality and development",
+        framework:
+          "React-Native JS, Redux JS, Redux, React-Bottom-tab-navigation",
+        description: [
+          "App for both Android and IOS. Autopilot is a leading marketing automation service that makes it easy to automate communications via email notifications, such as regular email newsletters, abandoned cart emails, as well as SMS messages, and more, to help grow your business faster",
+        ],
+        // link: [
+        //   {
+        //     android:
+        //       "https://play.google.com/store/apps/details?id=com.autopilot",
+        //   },
+        //   {
+        //     iOS: "https://apps.apple.com/in/app/autopilot-mobile/id1554761609",
+        //   },
+        // ],
       },
     ],
   },
