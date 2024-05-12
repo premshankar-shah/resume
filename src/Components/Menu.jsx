@@ -1,8 +1,5 @@
 import { useState } from "react";
-import {
-  BrowserRouter as Router,
-  NavLink,
-} from "react-router-dom";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 export const Menu = ({ menu }) => {
   const [show, setShow] = useState(false);

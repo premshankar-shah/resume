@@ -1,4 +1,4 @@
-import { BoxIcon } from './BoxIcon';
+import { BoxIcon } from "./BoxIcon";
 import { Options } from "./Options";
 
 export const Profile = ({
@@ -11,7 +11,7 @@ export const Profile = ({
   social,
   isMobileView,
 }) => {
-  console.log({ isMobileView })
+  console.log({ isMobileView });
   return (
     <section className="home section" id="home">
       <Options />
@@ -24,13 +24,22 @@ export const Profile = ({
             <i className="bx bx-map home__icon" /> {location}
           </span>
         </div>
-        <div className='home__contact bd-grid'>
+        <div className="home__contact bd-grid">
           <span className="social__link print">
             <i className="bx bx-map social__icon" /> {location}
           </span>
-          <BoxIcon className="home__icon bx-envelope" label={`Enviar un correo electrónico a ${name}`} url={`mailto:${email}`} />
-          <BoxIcon className="home__icon bx-phone" label={`Llamar por teléfono a ${name}`} url={`tel:${telephone}`} />
-          {true && social.map((social) => <BoxIcon key={social.name} {...social} />)}
+          <BoxIcon
+            className="home__icon bx-envelope"
+            label={`Enviar un correo electrónico a ${name}`}
+            url={`mailto:${email}`}
+          />
+          <BoxIcon
+            className="home__icon bx-phone"
+            label={`Llamar por teléfono a ${name}`}
+            url={`tel:${telephone}`}
+          />
+          {true &&
+            social.map((social) => <BoxIcon key={social.name} {...social} />)}
         </div>
       </div>
     </section>
