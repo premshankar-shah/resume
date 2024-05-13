@@ -30,10 +30,19 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: "Install Dependencies"
         run: yarn
+      - name: Build
+        run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload dist folder
+          path: "./dist"
       - name: "Github Pages Deployment"
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
+          yarn deploy -u "github-actions-bot <support+actions@github.com>"
         if: ${{ github.ref == 'refs/heads/master' }} # only deploy master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
