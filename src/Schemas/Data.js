@@ -1,7 +1,7 @@
 export const Data = {
   profile: {
     name: "Premshankar Shah",
-    ocupation: "React Native FullStack Software Developer",
+    occupation: "React Native FullStack Software Developer",
     location: "Ahmedabad, Gujarat",
     email: "shahprem2412@gmail.com",
     telephone: "+91 9824594969",

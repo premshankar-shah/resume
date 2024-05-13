@@ -1,9 +1,8 @@
-import React from 'react';
 import { Description } from "./Description";
 
 export const Projects = ({ projects }) => {
   return (
-    <section className="proyects-experience section" id="proyects">
+    <section className="projects-experience section" id="projects">
       <h2 className="section-title">Projects</h2>
       <div className="experience__container bd-grid">
         {projects.map((project) => (
@@ -25,7 +24,7 @@ const Project = ({ name, company, period, description, framework }) => {
         <h3 className="experience__title">
           {name} - {company}
         </h3>
-        <span className="experience__proyect">{period}</span>
+        <span className="experience__project">{period}</span>
         <span className="experience__project">Framework: {framework}</span>
         {/* <span className="experience__project"> Role: {role} </span> */}
         {description.map((desc, i) => (

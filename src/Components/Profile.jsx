@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { BoxIcon } from "./BoxIcon";
 import { Options } from "./Options";
 
@@ -31,12 +29,12 @@ export const Profile = ({
           </span>
           <BoxIcon
             className="home__icon bx-envelope"
-            label={`Enviar un correo electrónico a ${name}`}
+            label={`Send an email to ${email}`}
             url={`mailto:${email}`}
           />
           <BoxIcon
             className="home__icon bx-phone"
-            label={`Llamar por teléfono a ${name}`}
+            label={`Call on ${name}`}
             url={`tel:${telephone}`}
           />
           {true &&

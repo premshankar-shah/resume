@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const BoxIcon = ({ label, url: initialUrl, className }) => {
   const WORDS_TO_REPLACE = ["mailto:", "tel:"];
   let dataPrint = WORDS_TO_REPLACE.reduce(
