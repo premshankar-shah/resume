@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { BoxIcon } from "./BoxIcon";
 import { Options } from "./Options";
 
@@ -9,9 +11,8 @@ export const Profile = ({
   telephone,
   image,
   social,
-  isMobileView,
+  // isMobileView,
 }) => {
-  console.log({ isMobileView });
   return (
     <section className="home section" id="home">
       <Options />

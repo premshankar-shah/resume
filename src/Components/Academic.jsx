@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Academic = ({ academic }) => {
   return (
     <section className="academic-experience section" id="education">
