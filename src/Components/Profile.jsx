@@ -3,7 +3,7 @@ import { Options } from "./Options";
 
 export const Profile = ({
   name,
-  ocupation,
+  occupation,
   location,
   email,
   telephone,
@@ -18,7 +18,7 @@ export const Profile = ({
         <div className="home__data bd-grid">
           <img src={image} alt="profile_image" className="home__img no-print" />
           <h1 className="home__title">{name}</h1>
-          <h3 className="home__profession">{ocupation}</h3>
+          <h3 className="home__profession">{occupation}</h3>
           <span className="home__information no-print">
             <i className="bx bx-map home__icon" /> {location}
           </span>
