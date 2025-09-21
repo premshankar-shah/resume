@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "PROFILE",
     description:
-      "A React Native professional with over 3 years of experience, adept in mobile application development.  Programmer Analyst, skilled in applying agile methodologies to identify needs and design systems based on development models. Recognized for robust problem-solving abilities and rapid adaptation to new technologies. My journey encompasses frontend development, software architecture, and enhancing UI/UX, demonstrating adaptability in the ever-evolving tech landscape.",
+      "Results-driven Software Engineer with 4+ years of experience designing and developing cross-platform mobile applications using React Native, React, Expo, and the MERN stack. Skilled in building scalable, offline-first systems, integrating secure payment gateways, and delivering apps to global audiences on the App Store, Play Store, and Adyen Store. Passionate about performance optimization and contributing to the open-source React Native ecosystem.",
   },
   skills: {
     technicalLabel: "TECHNOLOGIES",
@@ -48,7 +48,7 @@ export const Data = {
       {
         label: "Prem2412",
         name: "github",
-        url: "https://github.com/prem2412",
+        url: "https://github.com/premshankar-shah",
         className: "bxl-github",
       },
     ],
@@ -60,8 +60,9 @@ export const Data = {
         period: "January 2024 - Present",
         company: "Searce Inc",
         description: [
-          "Frontend and Mobile development with technologies as React and React Native.",
-          "Building RESTful web services using Node.js and Nest.js (JS/TS) alongside MongoDB as the database engine, with API Connect serving as the API Gateway.",
+          "Developed a comprehensive EPOS system using React Native for the front end and Node.js for the backend, achieving 100% compatibility on Android and iOS devices.",
+          "Replaced deprecated MongoDB Realm Device Sync with WatermelonDB and a custom polling-based sync engine, ensuring high reliability in low-connectivity environments.",
+          "Integrated Adyen and Stripe payment gateways, optimizing transaction workflows and improving reliability.",
         ],
       },
       {
@@ -69,9 +70,9 @@ export const Data = {
         period: "April 2022 - January 2024",
         company: "MindInventory",
         description: [
-          "Developed mobile applications tailored to client requirements utilizing native technologies.",
-          "Identify and encourage areas for growth and improvement within the team.",
-          "Design, develop, and test applications in accordance with established standards",
+          "Architected and developed 4+ mobile applications using React Native and Expo, delivering cross-platform compatibility with high customer satisfaction.",
+          "Led end-to-end app lifecycles, including 10+ updates across apps, with a 100% on-time delivery rate.",
+          "Contributed to open-source React Native projects, enhancing library performance.",
         ],
       },
       {
@@ -79,7 +80,8 @@ export const Data = {
         period: "July. 2021 - April. 2022",
         company: "Shine InfoSoft - Technology Meets Solution",
         description: [
-          "Frontend and Mobile development with technologies such as React, React Native.",
+          "Delivered cross-platform apps using React Native and Electron, onboarding 2,500+ users post-launch.",
+          "Analyzed and implemented feature requirements using React Native, JavaScript, and Firebase, reducing bug reports and improving app stability.",
         ],
       },
     ],
@@ -97,11 +99,12 @@ export const Data = {
         company: "Searce Inc",
         role: "FullStack (MERN) Developer",
         framework:
-          "React-native, React, Adyen, EPOS, Stripe, Realm, MongoDB, Nestjs",
+          "React-native, Adyen, WatermelonDB, MongoDB, Nestjs, Thermal Printers",
         period: "Jan 2024 - Present",
         description: [
-          "Event software designed for entertainment industry. Manage traders and revenue across sites easily. Streamline operations for business growth.",
-          "From quick payments to automated revenue sharing, streamline operations and elevate your business.",
+          "Designed and launched an offline-first EPOS system adopted by 500+ retailers, ensuring high reliability in low-connectivity environments with WatermelonDB and a custom polling-based sync engine.",
+          "Integrated Adyen payment processing and thermal printer support, reducing transaction errors by 20%.",
+          "Improved daily retail operations and boosted efficiency by 30% through a scalable, high-performance architecture.",
         ],
         link: [
           {
@@ -119,7 +122,9 @@ export const Data = {
           "React-native, Stripe, In-App-Purchase (IAP), Mapbox, MMKV, Redux",
         period: "2022 - 2023",
         description: [
-          "Secret world is a magical place for travelers and dreamers. Worlds largest Travel guide, Never stop Discovering Explore Stories.",
+          "Built a subscription-based travel guide app with 10,000+ active users, enabling seamless destination discovery and trip planning.",
+          "Integrated Stripe, Mapbox, and In-App Purchases (IAP), increasing recurring revenue by 25%.",
+          "Optimized scalability and responsiveness with Redux, cutting app load times by 15%.",
         ],
         link: [
           {
@@ -202,9 +207,10 @@ export const Data = {
         role: "Design and development",
         framework:
           "React-Native, React, Electron, SQLite, Azure Services, Quill JS",
+        period: "2021",
         description: [
-          "Its an app for Exam from home, Exam app for students, Having all Questions types Descriptive, MCQs, Match the following questions. Camera to face detect, Mic to record audio on going exam. Screen Capture on going exam, schedule Exam dashboard, sections wise Question paper.",
-          // "Used Electron to integrated it for all platforms its available for all Windows, MacOS, Linux, Android and IOS Worked With PowerWeave senior Developer to developed this App. ",
+          "Created a remote exam platform for 2,000+ students, incorporating real-time features such as face detection, screen capture, and audio recording during exams.",
+          "Streamlined exam preparation with tools for detailed schedules and secure distribution of the question paper, reducing the administrative workload by 30%.",
         ],
         link: [
           {
